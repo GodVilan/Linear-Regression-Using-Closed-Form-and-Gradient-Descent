@@ -2,7 +2,6 @@
 Linear Regression using Closed-form Solution and Gradient Descent
 Student Name: SRIKANTH REDDY NANDIREDDY
 Student ID: 700773949
-Course: CS5710 Machine Learning - Fall 2025
 
 This script:
 1. Generates synthetic data (y = 3 + 4x + noise).

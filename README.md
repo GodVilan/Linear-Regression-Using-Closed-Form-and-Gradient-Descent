@@ -1,32 +1,32 @@
 # Linear Regression: Closed-form vs Gradient Descent
 
 ## Student Info
-- **Name:** [SRIKANTH REDDY NANDIREDDY]
-- **Student ID:** [700773949]
+- **Name:** [Your Name]
+- **Student ID:** [Your Student ID]
+- **Course:** [Your Course Name/Code]
+- **Date:** [Submission Date]
 
 ---
 
 ## Project Description
 This project demonstrates **Linear Regression** implemented in two ways:
 1. **Closed-form solution** using the Normal Equation:
-   \[
-   \theta = (X^T X)^{-1} X^T y
-   \]
+
+   θ = (XᵀX)⁻¹ Xᵀy
+
 2. **Gradient Descent** optimization:
-   \[
-   \theta := \theta - \eta \cdot \frac{2}{m} X^T (X\theta - y)
-   \]
+
+   θ := θ - η * (2/m) * Xᵀ(Xθ - y)
 
 Synthetic data is generated based on:
-\[
-y = 3 + 4x + \epsilon,\ \epsilon \sim \mathcal{N}(0,1)
-\]
+
+   y = 3 + 4x + ε, where ε ~ N(0,1)
 
 ---
 
 ## Steps Performed
 1. **Generate Dataset**
-   - 200 samples with `x ∈ [0,5]` and Gaussian noise.
+   - 200 samples with x ∈ [0,5] and Gaussian noise.
 2. **Closed-form Solution**
    - Compute parameters using the Normal Equation.
 3. **Gradient Descent**
@@ -43,9 +43,9 @@ y = 3 + 4x + \epsilon,\ \epsilon \sim \mathcal{N}(0,1)
 
 ## Results
 - **Closed-form Solution:**  
-  Intercept ≈ *3*, Slope ≈ *4*  
+  Intercept ≈ 3, Slope ≈ 4  
 - **Gradient Descent:**  
-  Intercept ≈ *3*, Slope ≈ *4* (after 1000 iterations)
+  Intercept ≈ 3, Slope ≈ 4 (after 1000 iterations)
 
 The Gradient Descent solution converged very close to the closed-form result, confirming correctness.
 

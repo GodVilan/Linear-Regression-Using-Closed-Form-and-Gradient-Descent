@@ -1,10 +1,8 @@
 # Linear Regression: Closed-form vs Gradient Descent
 
 ## Student Info
-- **Name:** [Your Name]
-- **Student ID:** [Your Student ID]
-- **Course:** [Your Course Name/Code]
-- **Date:** [Submission Date]
+- **Name:** [SRIKANTH REDDY NANDIREDDY]
+- **Student ID:** [700773949]
 
 ---
 
